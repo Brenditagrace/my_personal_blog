@@ -1,0 +1,247 @@
+/*
+Tags included in this project:
+a, href, #, id (replaces name), top,
+mailto, subject, ftp, target, _blank, visited
+*/
+
+body {
+  color: #af0000;
+  background-color: #d3e264;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.0;
+  text-align: center;
+}
+.multimedia{
+  background: url(https://tiestoclublife.files.wordpress.com/2014/08/dj_tiesto_club_life_img384.jpg);
+  background-size: cover;
+}
+h1.few-title a {
+    text-transform: capitalize;
+}
+.lists{
+  background: url(http://dreamatico.com/data_images/beach/beach-4.jpg);
+  background-size: cover;
+}
+
+hr {
+    color: #6D6846;
+    size: 2px;
+    width: 100%;
+    border-style: dashed;
+}
+h2.few-semititle {
+    color: #860202;
+    text-transform: capitalize;
+    padding-top: 20px;
+	    padding-bottom: 10px;
+}
+.few-list p a {
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+}
+.few-list {
+    padding-bottom: 15px;
+}
+ul.few-menu li {
+    display: inline-block;
+    padding-left: 10px;
+
+}
+ul.few-menu li a {
+      color: #525A17;
+    text-decoration: none;
+	line-height: 25px;
+
+}
+.setup center a {
+    color: #525A17;
+    font-size: 15px;
+    text-decoration: none;
+}
+.multimedia hr {
+    color: #89B309!important;
+}
+.multimedia ul.few-menu li a {
+    color: #fff;
+    background: #000;
+    padding: 15px;
+}
+.multimedia .ending a {
+    color: #fff;
+}
+.multimedia p1 {
+    color: #00008B;
+    font-size: 26px;
+}
+.box {
+    margin: 0 auto;
+    width: 500px;
+    padding: 50px 0;
+    text-align: left;
+}
+dd ul li {
+    list-style-type: disc;
+}
+
+table{margin:30px;}
+
+table {
+    border-collapse: seperate;
+    border-spacing: 10px;
+    background-color: #888531;
+}
+
+td {
+    background-color: orange;
+    border: 1px solid #000;
+    padding: 20px 25px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 800;
+}
+.box1 {
+    margin: 0 auto;
+    width: 300px;
+}
+a {
+  color: darkblue;
+}
+
+/* Evenly spaces links along the same line */
+.jumpTo {
+  display: inline-block;
+  width: 80%;
+  text-align: center;
+}
+
+.list {
+  padding: 10px;
+}
+ol li {
+  text-align: left;
+  padding-left: 5px;
+  margin-bottom: 8px;
+}
+
+.ending {
+  border: none;
+  margin: 50px;
+  text-align: center;
+}
+
+a:visited { 
+  color: #e39191;
+}
+/* Adjusts length of horizontal break according to browser */
+
+
+footer img {
+  max-width: 100px;
+}
+
+/* Contains the setup grid */
+.layout {
+  max-width: 900px;
+  margin: 60px auto 50px;
+}
+
+/* modifies theme title color */
+.theme {
+  color: #af0000;
+}
+
+/* Contains setup media; VIDEO or IMAGE */
+/****************************************/
+.setup {
+  width: 275px;
+  border: none;
+  margin: 8px;
+  display: inline-block;
+  position: relative;
+}
+
+.setup video {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.setup img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+/****************************************/
+/* end SETUP styling */
+
+/* TUTORIAL* classes contain image map and setup information */
+/****************************************/
+.tutorial {
+  width: 90%;
+  max-width: 950px;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  -webkit-column-gap: auto;
+  -moz-column-gap: auto;
+  column-gap: auto;
+  padding-bottom: 50px;
+}
+
+/* Modifies IMG to adjust to DIV size */
+.tutorial img {
+  width: auto;
+  max-width: 100%;
+  max-height: 100%;
+  padding-top: 15px;
+  display: block;
+  margin-left: 5%;
+}
+
+.tutorialText {
+  text-align: left;
+}
+
+/* Draws border around section; can be reused in future */
+.sectionFrame {
+  text-align: center;
+  border-color: #8f0000;
+  border-width: 2px;
+  border-style: solid;
+  width: auto;
+  max-width: 900px;
+  margin: 0px 5%;
+}
+
+.tutorialInfo {
+  padding-top: 5%;
+  padding-left: 5%;
+}
+/****************************************/
+/* END OF TUTORIAL CLASSES */
+
+.topLinks {
+  display: inline-block;
+  width: 80%;
+  text-align: center;
+}
+
+.navButton img {
+  float: left;
+  max-width: 30px;
+  position: relative;
+  top: -10px;
+  left: -70px;
+  padding-bottom: 20px;
+}
+
+.navButton2 img {
+  float: left;
+  max-width: 30px;
+  position: relative;
+  top: -10px;
+  left: -50px;
+  padding-bottom: 20px;
+}
+
